@@ -376,8 +376,8 @@ class Controller {
 
     $mail['Host']       = 'smtp.gmail.com';                     //Set the SMTP server to send through
     $mail['SMTPAuth']   = true;                                   //Enable SMTP authentication
-    $mail['Username']   = 'smartcoding06@gmail.com';                     //SMTP username
-    $mail['Password']   = 'uswr2ndd';                               //SMTP password
+    $mail['Username']   = 'example@gmail.com';                     //SMTP username
+    $mail['Password']   = 'password';                               //SMTP password
     $mail['Port']       = 465; 
 
     return json_decode(json_encode($mail));
